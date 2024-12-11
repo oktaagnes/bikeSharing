@@ -30,7 +30,7 @@ Untuk menginstalnya, jalankan perintah berikut:
 
 pip install pandas matplotlib seaborn plotly dash
 
-# Cara Menjalankan file notebook.Python
+# Cara Menjalankan file notebook.py
 dowlone atau clone file yang ada di branch
 lalu masukkan file tersebut ke google colab atau visual studiocode
 maka file tersebut dapat digunakan
