@@ -55,7 +55,7 @@ max_date = day_clean_df['dteday'].max()
 # Buat sidebarnya
 with st.sidebar:
     st.text('Bike Rental')
-    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbike-rental&psig=AOvVaw2tgU3RE_OLAYe2bzr8nyk7&ust=1734006753030000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCemNncn4oDFQAAAAAdAAAAABAE", caption='')
+    st.image("https://github.com/oktaagnes/bikeSharing/blob/main/coding/assets/bikeSharing.jpeg", caption='')
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
