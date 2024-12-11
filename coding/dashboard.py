@@ -12,8 +12,8 @@ px.defaults.template = 'plotly_dark'
 px.defaults.color_continuous_scale = 'reds'
 
 # Load berkas                                   
-day_clean_df = pd.read_csv("data/dayDataSet.csv")
-hour_df = pd.read_csv("data/hourDataSet.csv")
+day_clean_df = pd.read_csv("bikeSharing/coding/data/dayDataSet.csv")
+hour_df = pd.read_csv("bikeSharing/coding/data/hourDataSet.csv")
 
 # Helper function yang di butuhkan untuk menyiapkan berbagai dataframe
 def create_monthly_df(df):
