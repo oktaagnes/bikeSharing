@@ -10,21 +10,21 @@ Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis p
 - Buat lingkungan virtual:
   python -m venv main-ds
 - Aktifkan lingkungan virtual:
-  windows
-  main-ds\Scripts\activate
-  macOS/Linux:
-  source main-ds/bin/activate
+   windows
+    main-ds\Scripts\activate
+   macOS/Linux:
+   source main-ds/bin/activate
 - Instal dependensi:
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal 
 - Instal pipenv:
-  pip install pipenv
+   pip install pipenv
 - Buat dan aktifkan lingkungan virtual:
-  pipenv install
-  pipenv shell
+   pipenv install
+   pipenv shell
 - Instal dependensi tambahan:
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Run streamlit app
 - streamlit run dashboard.py
