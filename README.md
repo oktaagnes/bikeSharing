@@ -4,11 +4,7 @@ Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis p
 
 ## Prasyarat
  Python 3.8 atau lebih baru
- Periksa instalasi Python:
-  ```bash
-  python --version
-  pip (Python package manager)
- pip --version
+ pip (Python package manager)
 
 ## Setup Environment - Python
 - Buat lingkungan virtual:
@@ -22,10 +18,13 @@ Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis p
   pip install -r requirements.txt
 
 ## Setup Environment - Shell/Terminal 
-- pip install pipenv
-- pipenv install
-- pipenv shell
-- pip install -r requirements.txt
+- Instal pipenv:
+  pip install pipenv
+- Buat dan aktifkan lingkungan virtual:
+  pipenv install
+  pipenv shell
+- Instal dependensi tambahan:
+  pip install -r requirements.txt
 
-##Run streamlit app
+## Run streamlit app
 - streamlit run dashboard.py
