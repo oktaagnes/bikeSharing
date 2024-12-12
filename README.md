@@ -1,18 +1,18 @@
 # Sharing Bike Dashboard
-Dashboard berbasis Streamlit untuk menganalisis dan menampilkan data Sharing Bike.
+Dashboard berbasis Streamlit untuk menganalisis dan menampilkan data Sharing Bike. <br>
 Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis pola penggunaan sepeda.
 
 ## Prasyarat
- Python 3.8 atau lebih baru
+ Python 3.8 atau lebih baru <br>
  pip (Python package manager)
 
 ## Setup Environment - Python
-- Buat lingkungan virtual:
+- Buat lingkungan virtual:  <br>
   python -m venv main-ds
-- Aktifkan lingkungan virtual:
-   windows
-    main-ds\Scripts\activate
-   macOS/Linux:
+- Aktifkan lingkungan virtual: <br>
+   windows <br>
+    main-ds\Scripts\activate <br>
+   macOS/Linux: <br>
    source main-ds/bin/activate
 - Instal dependensi:
    pip install -r requirements.txt
