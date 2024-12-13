@@ -1,6 +1,6 @@
 # Sharing Bike Dashboard
 Dashboard berbasis Streamlit untuk menganalisis dan menampilkan data Sharing Bike. <br>
-Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis pola penggunaan sepeda.
+Aplikasi ini membantu memvisualisasikan data sharing bike, memudahkan analisis pola penyewaan sepeda.
 
 ## Prasyarat
  Python 3.8 atau lebih baru <br>
