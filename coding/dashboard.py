@@ -14,11 +14,9 @@ px.defaults.color_continuous_scale = 'reds'
 # membaca data dari URL                              
 day_df = pd.read_csv("https://raw.githubusercontent.com/oktaagnes/bikeSharing/refs/heads/main/Data/day.csv")   
 hour_df = pd.read_csv("https://raw.githubusercontent.com/oktaagnes/bikeSharing/refs/heads/main/Data/hour.csv")
-# day_clean_df = pd.read_csv("data/dayDataSet.csv")
-# hour_df = pd.read_csv("data/hourDataSet.csv")
 
 # Helper function yang di butuhkan untuk menyiapkan berbagai dataframe
-# explore_pertanyaan1 = day_df.groupby(['mnth', 'yr'])['cnt'].sum().reset_index()
+# explore_pertanyaan1 
 def create_monthly_df(df):
     monthly_df = df.groupby(by=["mnth","yr"]).agg({
         "cnt" : "sum"
@@ -56,7 +54,7 @@ max_date = day_df['dteday'].max()
 # Buat sidebarnya
 with st.sidebar:
     st.text('Bike Rental')
-    st.image('assets/bikeSharing.jpeg', caption='')
+    st.image('https://github.com/oktaagnes/bikeSharing/blob/f4524b54a03d15fb8f8acea3ed1d45a147b41bb4/coding/assets/bikeSharing.jpeg')
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
