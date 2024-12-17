@@ -54,7 +54,7 @@ max_date = day_df['dteday'].max()
 # Buat sidebarnya
 with st.sidebar:
     st.text('Bike Rental')
-    st.image('coding/assets/bikeSharing.jpeg')
+    st.image('https://github.com/oktaagnes/bikeSharing/blob/main/coding/assets/bikeSharing.jpeg')
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
@@ -107,9 +107,6 @@ ax.grid(axis='y', linestyle='--', alpha=0.7)  # Garis horizontal putus-putus
 
 # Tampilkan plot di Streamlit
 st.pyplot(fig)
-
-
-
 
 # Menghitung jumlah penyewa untuk hari kerja dan akhir pekan
 workingday_cnt = day_df[day_df['workingday'] == 1]['cnt'].sum()
